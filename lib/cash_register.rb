@@ -1,12 +1,5 @@
 class CashRegister
 
-  attr_accessor :total, :items, :last_item
-  attr_reader :discount
-  def initialize(discount=0)
-      @discount = discount
-      @total = 0 
-      @items = []     
-  end
 
   # sumbmitting changes
 
